@@ -9,10 +9,10 @@ Call: gps_manage.py -drive
 
 # import GPS Planner and other DK parts
 import donkeycar as dk
-from donkeycar.parts.gps import GPS
-from donkeycar.parts.planner import Planner
-from donkeycar.vehicle import Vehicle
-from donkeycar.parts.actuator import PCA9685, PWMSteering, PWMThrottle
+from localdonkey.parts.gps import GPS
+from localdonkey.parts.planner import Planner
+from localdonkey.vehicle import Vehicle
+from localdonkey.parts.actuator import PCA9685, PWMSteering, PWMThrottle
 
 # other important modules
 import serial
